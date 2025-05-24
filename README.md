@@ -1,72 +1,75 @@
-<<<<<<< HEAD
-# CodeIgniter 4 Application Starter
+# 💍 Jewellery Product Management System
 
-## What is CodeIgniter?
+A web-based product management system for jewellery businesses, built using **CodeIgniter 4**, featuring CRUD operations, secure authentication, image resizing, and responsive DataTables integration.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## 🚀 Features
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+- 🧑‍💼 Admin login system with session-based authentication
+- 📦 Product CRUD (Create, Read, Update, Delete)
+- 🖼 Image upload with resizing to 500x500 pixels
+- 📊 DataTables with server-side pagination, search, sorting
+- 🎨 Bootstrap 5 responsive UI with sidebar & navbar
+- 📁 Image storage in `public/uploads/`
+- 🔐 Secure route protection (only logged-in users can manage products)
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+---
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## 🧑‍💻 Tech Stack
 
-## Installation & updates
+- **Backend**: PHP 8.1, CodeIgniter 4
+- **Frontend**: HTML5, CSS3, Bootstrap 5, jQuery
+- **Database**: MySQL
+- **Image Library**: CodeIgniter Image Manipulation
+- **Plugins**: DataTables with ColVis extension
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+---
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+## 📁 Project Structure
 
-## Setup
+```text
+jewellery_product_management/
+├── app/
+│   ├── Controllers/
+│   ├── Models/
+│   ├── Views/
+│   └── Config/
+├── public/
+│   ├── assets/            # CSS, JS
+│   └── uploads/           # Product images
+├── writable/
+│   └── logs/
+├── .env
+├── .gitignore
+├── composer.json
+└── README.md
+## 📁 Installation & Setup
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+# Clone the repository
+git clone https://github.com/Logesh2802/Jewellery_products_management.git
+cd Jewellery_products_management
 
-## Important Change with index.php
+# Install PHP dependencies
+composer install
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+# Copy environment file and configure
+cp env .env
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+# (Edit .env to setup your database credentials)
+# Example .env database config:
+# database.default.hostname = localhost
+# database.default.database = jewellery_db
+# database.default.username = root
+# database.default.password =
+# database.default.DBDriver = MySQLi
 
-**Please** read the user guide for a better explanation of how CI4 works!
+# Run database migrations
+php spark migrate
+php spark db:seed AdminSeeder
 
-## Repository Management
+# Start development server
+php spark serve
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-=======
-# Jewellery_products_management
->>>>>>> 062157d2bf03c8dfd019bf0d60454364920ba844
+# Visit http://localhost:8080 in your browser
+# Type http://localhost:8080/index.php/login
+Username:admin@example.com
+Password:admin123
