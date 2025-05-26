@@ -74,24 +74,24 @@ php spark serve
 Username:admin@example.com
 Password:admin123
 
-# ScreenShots
+## Screenshots
 
-# loginPage.
-![LoginPage](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20065034.png?raw=true)
+### Login Page
+![Login Page](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20065034.png?raw=true)
 
-# Admin Dashboard
-![Products](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070022.png)?raw=true)
+### Admin Dashboard
+![Admin Dashboard](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070022.png?raw=true)
 
-# Column Visibility
-![Products column visibility](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070047.png?raw=true)
+### Column Visibility
+![Products Column Visibility](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070047.png?raw=true)
 
-# Add Products
-![Products create](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20065411.png?raw=true)
+### Add Product
+![Add Product](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20065411.png?raw=true)
 
-# Edit Product
-![Products edit](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070115.png?raw=true)
+### Edit Product
+![Edit Product](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070115.png?raw=true)
 
-# Delete Product
-![Products delete](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070330.png?raw=true)
+### Delete Product
+![Delete Product](https://github.com/Logesh2802/Jewellery_products_management/blob/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070330.png?raw=true)
 
 
