@@ -74,25 +74,6 @@ php spark serve
 Username:admin@example.com
 Password:admin123
 
-## Screenshots
-
-### Login Page
-![Login Page](Screenshot 2025-05-26 065034.png)
-
-### Admin Dashboard
-![Admin Dashboard](https://raw.githubusercontent.com/Logesh2802/Jewellery_products_management/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070022.png)
-
-### Column Visibility
-![Column Visibility](https://raw.githubusercontent.com/Logesh2802/Jewellery_products_management/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070047.png)
-
-### Add Product
-![Add Product](https://raw.githubusercontent.com/Logesh2802/Jewellery_products_management/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20065411.png)
-
-### Edit Product
-![Edit Product](https://raw.githubusercontent.com/Logesh2802/Jewellery_products_management/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070115.png)
-
-### Delete Product
-![Delete Product](https://raw.githubusercontent.com/Logesh2802/Jewellery_products_management/54ca771e62adfe378793f68edcb93816c2ab4f64/Screenshot%202025-05-26%20070330.png)
 
 
 ### Delete Product
